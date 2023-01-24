@@ -2,6 +2,9 @@ require('dotenv').config()
 const express = require('express')
 const app = express()
 
+//add 01.23.23
+app.use('/places', require('./controllers/places'))
+
 app.get('/', (req, res) => {
     res.send('Hello world!')
 })
