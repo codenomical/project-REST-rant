@@ -23,3 +23,5 @@ Create a rant (comment) about a particular place
 Delete a rant (comment) about a particular place
 
 404 page (matches any route not defined above)
+
+The places should have a name, city, state, cuisine type and a pic
