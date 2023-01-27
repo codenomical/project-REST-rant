@@ -18,8 +18,13 @@ app.get('/', (req, res) => {
     res.render('home')
 })
 
+// change 01.25.23
+// app.get('*', (req, res) => {
+//     res.status(404).send('<h1>404 page</h1>')
+// })
+
 app.get('*', (req, res) => {
-    res.status(404).send('<h1>404 page</h1>')
+    res.render('error404')
 })
 
 app.listen(process.env.PORT)
